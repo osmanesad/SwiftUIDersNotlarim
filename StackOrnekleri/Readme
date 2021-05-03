@@ -1,0 +1,17 @@
+Stacklere ekstra özellik olarak Alignment ve Spacingden de bahsedelim.
+
+Örnek üzerinden gicedek olursak.
+
+VStack(alignment: .leading , spacing: 15){
+   
+   Text("1.Satır")
+   Text("2.Satır")
+   Text("3.Satır")
+
+}
+
+// Yukarıda parantez içerisinde belirttiğimiz "alignment" tasarın alanı içerisindeki nesnelerin hizalanmasını ayarlıyor.
+// Alignment'a bağlı olarak eğer VStack ile işlem yapıyorsak ".leading" sola yaslamaya, ".trailling" sağa ve ".center" ise merkeze konumlamaya yarıyan özellikler.
+// Aynı şekilde eğer HStack ile işlem yapıyorsak ".top" yukarı, ".bottom" aşağı ve ".center" ortaya şeklinde hizlamalar gerçeklerşir.
+
+// Spacing ise nesnelerin kendileri arasındaki boşluğu ayarlar.
